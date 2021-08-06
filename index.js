@@ -21,7 +21,7 @@ const hx = require('hxz-api')
 const { relayWAMessage, prepareMessageFromContent } = require('@adiwajshing/baileys')
 const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
-const imgbb = require('imgbb-uploader')
+//const imgbb = require('imgbb-uploader')
 const Exif = require('./lib/exif');
 const exif = new Exif();
 const speed = require('performance-now')
@@ -644,7 +644,7 @@ hexa.sendMessage(from, stikernyak, sticker, {quoted:tromli })
 hexa.sendMessage(from, stikernyak, sticker, {quoted:tromli })
 hexa.sendMessage(from, stikernyak, sticker, {quoted:tromli })
 break
-case 'memegen':
+/*case 'memegen':
                      top = q.split('|')[0]
                      bottom = q.split('|')[1]
 					var imgbb = require('imgbb-uploader')
@@ -660,7 +660,7 @@ case 'memegen':
 					} else {
 					reply('Gunakan foto/stiker!')
 					}
-					break
+					break*/
 case 'anuin':
                hmm4 = fs.readFileSync(`./stik/fake.jpeg`)
                imeu = await hexa.prepareMessage('0@s.whatsapp.net', hmm4, image)
